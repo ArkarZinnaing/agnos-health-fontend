@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agnos Health | Pain Location Selector</title>
+    <title>Agnos Health - Pain Location Selector</title>
     <link rel="icon" href="https://www.agnoshealth.com/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="https://www.agnoshealth.com/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -94,13 +94,6 @@
                 left: 100%;
             }
         }
-        
-        @media only screen and (max-width: 768px) {
-            .wrapper {
-                width: 100% !important;
-                height: auto !important;
-            }
-        }
     </style>
 </head>
 
@@ -109,7 +102,7 @@
         <!-- abdominal -->
         <section id="abdominal">
             <h2 class="text-center text-2xl mb-4">ส่วนไหนของอาการปวดท้องคุณมากที่สุด?</h2>
-            <div class="wrapper h-[430px] w-[390px] bg-white rounded-[30px] shadow-lg flex m-auto">
+            <div class="sm:w-full sm:h-auto md:h-[430px] md:w-[390px] bg-white rounded-[30px] shadow-lg flex m-auto">
                 <svg viewBox="0 0 981 1078" fill="none" class="md:w-[400px] mx-auto sm:w-full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g>
 
@@ -341,7 +334,7 @@
 
         <section id="finger" style="display: none;">
             <h2 class="text-center text-2xl mb-4">จุดไหนที่คุณปวดนิ้วมากที่สุด ?</h2>
-            <div class="wrapper h-[430px] w-[390px] bg-white rounded-[30px] shadow-lg flex m-auto">
+            <div class="sm:w-full sm:h-auto md:h-[430px] md:w-[390px] bg-white rounded-[30px] shadow-lg flex m-auto">
                 <svg width="865" viewBox="0 0 865 1078" fill="none" class="w-[330px] mx-auto ml-[50px]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g clip-path="url(#clip0_32_6)">
                             <rect id="default-finger" x="-74" width="915"
@@ -594,7 +587,6 @@
                             fill-rule="evenodd"></path>
                     </svg>
                     ก่อนหน้า
-
                 </button>
         </section>
 
